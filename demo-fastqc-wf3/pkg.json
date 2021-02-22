@@ -1,0 +1,33 @@
+{
+    "name": "demo-fastqc-wf3",
+    "version": "0.1.0",
+    "description": "FastQC workflow",
+    "main": "demo-fastqc-wf3",
+    "scripts": {
+        "test": "wfpm test"
+    },
+    "deprecated": false,
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jtracker-io/awesome-wfpkgs2.git"
+    },
+    "dependencies": [
+        "github.com/icgc-argo/demo-wfpkgs/demo-utils@1.2.0",
+        "github.com/jtracker-io/awesome-wfpkgs1/demo-fastqc2@0.1.0"
+    ],
+    "devDependencies": [],
+    "contributors": [
+        {
+            "name": "Junjun Zhang",
+            "email": "junjun.ca@gmail.com"
+        }
+    ],
+    "license": "ISC",
+    "bugReport": "https://github.com/jtracker-io/awesome-wfpkgs2/issues",
+    "homepage": "https://github.com/jtracker-io/awesome-wfpkgs2#readme"
+}
