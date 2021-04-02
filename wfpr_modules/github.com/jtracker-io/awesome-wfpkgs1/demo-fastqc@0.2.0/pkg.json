@@ -1,0 +1,37 @@
+{
+    "name": "demo-fastqc",
+    "version": "0.2.0",
+    "description": "FastQC tool",
+    "main": "main.nf",
+    "deprecated": false,
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jtracker-io/awesome-wfpkgs1.git"
+    },
+    "container": {
+        "registries": [
+            {
+                "registry": "ghcr.io",
+                "type": "docker",
+                "org": "jtracker-io",
+                "default": true
+            }
+        ]
+    },
+    "dependencies": [],
+    "devDependencies": [],
+    "contributors": [
+        {
+            "name": "Junjun Zhang",
+            "email": "junjun.ca@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "bugReport": "https://github.com/jtracker-io/awesome-wfpkgs1/issues",
+    "homepage": "https://github.com/jtracker-io/awesome-wfpkgs1#readme"
+}
